@@ -1,0 +1,2 @@
+# stop_sound
+トリガーとなる動作を行った時にSafari、ChromeのYoutube、Musicを停止するスクリプト
