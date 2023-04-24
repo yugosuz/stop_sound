@@ -2,7 +2,6 @@ import serial
 import atexit
 import subprocess
 import sys
-import os
 
 ser = serial.Serial("シリアルポート名", 115200)
 
