@@ -12,6 +12,7 @@ def all_done():
     ser.close()
 
 def main():
+    atexit.register(all_done)
     try:
         while(True):
             line = ser.readline().strip().decode('utf-8')
